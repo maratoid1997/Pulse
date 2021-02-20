@@ -1,0 +1,17 @@
+@keyframes cup {
+  15% { transform: rotate(0deg); }  
+  85% { transform: rotate(-360deg); }  
+  100% { transform: rotate(-360deg); }
+}
+
+@keyframes heart {
+  from { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  to { transform: scale(1); }
+}
+
+@keyframes sneaker {
+  15% { transform: rotate(0deg); }
+  70% { transform: rotate(-360deg); }
+  100% { transform: rotate(360deg); }
+}

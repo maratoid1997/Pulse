@@ -1,0 +1,13 @@
+.title {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #0D0D0D;
+  &_catalog {
+    font-weight: 500;
+  }
+  &_reviews {
+    font-weight: 700;
+  }
+}

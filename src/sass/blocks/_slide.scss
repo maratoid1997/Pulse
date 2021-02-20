@@ -1,0 +1,20 @@
+.slide {
+  position: relative;
+  padding: 84px 0 81px 0;
+  &__img {
+    display: block;
+    margin: 0 auto;    
+  }
+  .slick-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -50px;
+  }
+  .slick-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -50px;
+  }
+}
